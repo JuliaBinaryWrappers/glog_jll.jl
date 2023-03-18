@@ -1,252 +1,288 @@
 [[glog]]
 arch = "aarch64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "f8a64d0c383e4e0580ad82a896efc21953ac83a5"
-libc = "musl"
-os = "linux"
-
-    [[glog.download]]
-    sha256 = "af7cb95354f85a457cdd146f019effd4aec959edad286c734d849b34d791c63e"
-    url = "https://github.com/JuliaBinaryWrappers/glog_jll.jl/releases/download/glog-v0.4.0+0/glog.v0.4.0.aarch64-linux-musl-cxx03.tar.gz"
-[[glog]]
-arch = "aarch64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "fdcaff89489f4b92ea0d2a7d60c5e80fb57639c7"
-libc = "musl"
-os = "linux"
-
-    [[glog.download]]
-    sha256 = "686901cf17af94d2e79413778431e4229dd9f555df58a97bd4416c230c278838"
-    url = "https://github.com/JuliaBinaryWrappers/glog_jll.jl/releases/download/glog-v0.4.0+0/glog.v0.4.0.aarch64-linux-musl-cxx11.tar.gz"
-[[glog]]
-arch = "armv7l"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "b1f77ac888b5e26d3c20b13342be31b0faf7378a"
-libc = "musl"
-os = "linux"
-
-    [[glog.download]]
-    sha256 = "8d986516bcf113627aaf9e107df19ed9f2d5437f50865c53a6907052b339fc34"
-    url = "https://github.com/JuliaBinaryWrappers/glog_jll.jl/releases/download/glog-v0.4.0+0/glog.v0.4.0.armv7l-linux-musleabihf-cxx03.tar.gz"
-[[glog]]
-arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "fb2eed41c822da6d6e40c601d822aa378ec823fd"
-os = "windows"
-
-    [[glog.download]]
-    sha256 = "64cd9377ff62d67199a1adcb5fcecdeeeb52deba0aa0b0318111b97b5a001b7f"
-    url = "https://github.com/JuliaBinaryWrappers/glog_jll.jl/releases/download/glog-v0.4.0+0/glog.v0.4.0.x86_64-w64-mingw32-cxx11.tar.gz"
-[[glog]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "1dea3e5c879caff9bb56f4dd6bee89f41b489863"
-libc = "musl"
-os = "linux"
-
-    [[glog.download]]
-    sha256 = "59e82095826662278ef19089d2964efdd57e4c198ca5a6aa2ee9d76795c81e6f"
-    url = "https://github.com/JuliaBinaryWrappers/glog_jll.jl/releases/download/glog-v0.4.0+0/glog.v0.4.0.i686-linux-musl-cxx11.tar.gz"
-[[glog]]
-arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "c6da2fda9785c5c3ed406643a33d5e53251ab874"
-libc = "musl"
-os = "linux"
-
-    [[glog.download]]
-    sha256 = "c5429d2999b15f97a06a6d0f67144543b784124caa7b502083c6c4687224f0e5"
-    url = "https://github.com/JuliaBinaryWrappers/glog_jll.jl/releases/download/glog-v0.4.0+0/glog.v0.4.0.x86_64-linux-musl-cxx11.tar.gz"
-[[glog]]
-arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "b64a0f95578c3521f033dbd5f1efa8a9ac08f8c3"
-libc = "glibc"
-os = "linux"
-
-    [[glog.download]]
-    sha256 = "24554598850068ff170f54f85d7d452bc14ee5c19939258aad777c8b4c549363"
-    url = "https://github.com/JuliaBinaryWrappers/glog_jll.jl/releases/download/glog-v0.4.0+0/glog.v0.4.0.x86_64-linux-gnu-cxx03.tar.gz"
-[[glog]]
-arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "364ca92922e8e103d499f0ef91ef27c0a23c4213"
-libc = "glibc"
-os = "linux"
-
-    [[glog.download]]
-    sha256 = "b1c76898ed9d10d89cf03de194250d4056b56455cba65ca774a6f752912ffa46"
-    url = "https://github.com/JuliaBinaryWrappers/glog_jll.jl/releases/download/glog-v0.4.0+0/glog.v0.4.0.i686-linux-gnu-cxx03.tar.gz"
-[[glog]]
-arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "1309c8bd8fd3e87895e9b6a0eed560d49d65ec2b"
+git-tree-sha1 = "7e5c11f83dd4b60f08093f8f45cf408ae4bb19b9"
 os = "macos"
 
     [[glog.download]]
-    sha256 = "1141d689328ae56ae806c721d2407a97a8ce2f5332a0ba3cb12f53cb88eb1c56"
-    url = "https://github.com/JuliaBinaryWrappers/glog_jll.jl/releases/download/glog-v0.4.0+0/glog.v0.4.0.x86_64-apple-darwin14-cxx11.tar.gz"
+    sha256 = "99ed2ff56ec397b4c51e72760a16320804784ad6c4f7af804274b9bb521367d6"
+    url = "https://github.com/JuliaBinaryWrappers/glog_jll.jl/releases/download/glog-v0.6.0+0/glog.v0.6.0.aarch64-apple-darwin.tar.gz"
 [[glog]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "cc75f6e178bad50381b7ad0445add691ffb4cd2b"
-libc = "glibc"
-os = "linux"
-
-    [[glog.download]]
-    sha256 = "3edb138f261e8cccfb8e099292a21cfd3b50861054589c293eaeb0595e5bf061"
-    url = "https://github.com/JuliaBinaryWrappers/glog_jll.jl/releases/download/glog-v0.4.0+0/glog.v0.4.0.i686-linux-gnu-cxx11.tar.gz"
-[[glog]]
-arch = "x86_64"
+arch = "aarch64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "889641fc99e844859a70302a3f8a163e8e6ef3f0"
-os = "windows"
-
-    [[glog.download]]
-    sha256 = "ebbe41a19e37f229a152d5ca96e987acba66a126b33c50245cad4227cc976261"
-    url = "https://github.com/JuliaBinaryWrappers/glog_jll.jl/releases/download/glog-v0.4.0+0/glog.v0.4.0.x86_64-w64-mingw32-cxx03.tar.gz"
-[[glog]]
-arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "2e970e6215c360be9dba5f851202b57ed5c4507f"
+git-tree-sha1 = "83671fb93e746369d94388f485a37145f6a5eabb"
 libc = "glibc"
 os = "linux"
 
     [[glog.download]]
-    sha256 = "c86bb21c237155422661013ee59af60055da4c43c511fce30115b7bfe69536c7"
-    url = "https://github.com/JuliaBinaryWrappers/glog_jll.jl/releases/download/glog-v0.4.0+0/glog.v0.4.0.x86_64-linux-gnu-cxx11.tar.gz"
-[[glog]]
-arch = "powerpc64le"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "6db43587fb191f2260b5fce4c389486c73ad3909"
-libc = "glibc"
-os = "linux"
-
-    [[glog.download]]
-    sha256 = "9ea831d0c89a04049b562311d0c6dbeda521b688e0e72aaadc8ced58cbae3662"
-    url = "https://github.com/JuliaBinaryWrappers/glog_jll.jl/releases/download/glog-v0.4.0+0/glog.v0.4.0.powerpc64le-linux-gnu-cxx11.tar.gz"
+    sha256 = "09eee5c905fc7ec8b910ba32d36c2a1b78aa40859e6130d433fc320a85d5abd6"
+    url = "https://github.com/JuliaBinaryWrappers/glog_jll.jl/releases/download/glog-v0.6.0+0/glog.v0.6.0.aarch64-linux-gnu-cxx03.tar.gz"
 [[glog]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "fd7c05fc089f7202df1eb555326239c67c3961bb"
+git-tree-sha1 = "3be52476c7eb49a00de9beb8169c226e2f375866"
 libc = "glibc"
 os = "linux"
 
     [[glog.download]]
-    sha256 = "ec6a07496ccefd3e5a6d75e7d410c8965794dc99b7c72349a4f24052aaa26115"
-    url = "https://github.com/JuliaBinaryWrappers/glog_jll.jl/releases/download/glog-v0.4.0+0/glog.v0.4.0.aarch64-linux-gnu-cxx11.tar.gz"
+    sha256 = "0a3fd594eaf608cc2c576856970654888d0b8d74bcc39e50e7bd4d0da64f3992"
+    url = "https://github.com/JuliaBinaryWrappers/glog_jll.jl/releases/download/glog-v0.6.0+0/glog.v0.6.0.aarch64-linux-gnu-cxx11.tar.gz"
 [[glog]]
-arch = "x86_64"
+arch = "aarch64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "34cfc6ced958f99bf020d3778ae2ba7175046000"
+git-tree-sha1 = "82c2eefed87523cfef042cd56da966a624ff644e"
 libc = "musl"
 os = "linux"
 
     [[glog.download]]
-    sha256 = "168083ab5fba7a1aea7501ad75d99dce9a0d0702b1105de86512752b587dc2f3"
-    url = "https://github.com/JuliaBinaryWrappers/glog_jll.jl/releases/download/glog-v0.4.0+0/glog.v0.4.0.x86_64-linux-musl-cxx03.tar.gz"
+    sha256 = "a5a1875b4dd0d8849aa2e6c3d059f34e3cab1fd6882ab2d6de2aa1c5e98cfbff"
+    url = "https://github.com/JuliaBinaryWrappers/glog_jll.jl/releases/download/glog-v0.6.0+0/glog.v0.6.0.aarch64-linux-musl-cxx03.tar.gz"
+[[glog]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "0d2d2813dd6e2910287be74dfbf2a4a25d233d94"
+libc = "musl"
+os = "linux"
+
+    [[glog.download]]
+    sha256 = "2a9aea3b176cfd52421be5ddf8c61492c30b54bf1cbfa4be5b883fa92a0fedf5"
+    url = "https://github.com/JuliaBinaryWrappers/glog_jll.jl/releases/download/glog-v0.6.0+0/glog.v0.6.0.aarch64-linux-musl-cxx11.tar.gz"
+[[glog]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "38401c647b2622c22a02dfe4475c869981865800"
+libc = "glibc"
+os = "linux"
+
+    [[glog.download]]
+    sha256 = "3bc19524dc2419099bed5bc0fb275cd8113321d8bf8382ee2c52a6f16cae41de"
+    url = "https://github.com/JuliaBinaryWrappers/glog_jll.jl/releases/download/glog-v0.6.0+0/glog.v0.6.0.armv6l-linux-gnueabihf-cxx03.tar.gz"
+[[glog]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "ac2dad74e931d5fd1b01239306ad5acff494e282"
+libc = "glibc"
+os = "linux"
+
+    [[glog.download]]
+    sha256 = "8cd1abe8b75b7c3644e3bffe201610c4f24027bbeeedb9c009ae38f6cef90b45"
+    url = "https://github.com/JuliaBinaryWrappers/glog_jll.jl/releases/download/glog-v0.6.0+0/glog.v0.6.0.armv6l-linux-gnueabihf-cxx11.tar.gz"
+[[glog]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "26896ed4f71870768f84e4adbfe157c36b804c00"
+libc = "musl"
+os = "linux"
+
+    [[glog.download]]
+    sha256 = "29aebbcbb91fc72bc2f2ef29438cc7fd77ef76a08c166c4a84f919464034483c"
+    url = "https://github.com/JuliaBinaryWrappers/glog_jll.jl/releases/download/glog-v0.6.0+0/glog.v0.6.0.armv6l-linux-musleabihf-cxx03.tar.gz"
+[[glog]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "7936c3423d6b7f0faa2f4fbd578652da9b368c37"
+libc = "musl"
+os = "linux"
+
+    [[glog.download]]
+    sha256 = "ff8e636b822f46cc631dff878c0741807dfbe47257bb5f93d77143419408b2e0"
+    url = "https://github.com/JuliaBinaryWrappers/glog_jll.jl/releases/download/glog-v0.6.0+0/glog.v0.6.0.armv6l-linux-musleabihf-cxx11.tar.gz"
+[[glog]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "9c9ede3e45e04993b9f255bd13790d70321d7fbf"
+libc = "glibc"
+os = "linux"
+
+    [[glog.download]]
+    sha256 = "3744a7e6f47209c9a5d9bf69a19b0bcbc3b80d1e086f64b32e98d7c38e2e6cfa"
+    url = "https://github.com/JuliaBinaryWrappers/glog_jll.jl/releases/download/glog-v0.6.0+0/glog.v0.6.0.armv7l-linux-gnueabihf-cxx03.tar.gz"
+[[glog]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "383acfa298b6e76001237a9e3f3c3be9d2edf1c0"
+libc = "glibc"
+os = "linux"
+
+    [[glog.download]]
+    sha256 = "405744d7adea85fd47204f0b13c7e5f5d328dbdcb2c36bdc5085c1cc03944109"
+    url = "https://github.com/JuliaBinaryWrappers/glog_jll.jl/releases/download/glog-v0.6.0+0/glog.v0.6.0.armv7l-linux-gnueabihf-cxx11.tar.gz"
+[[glog]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "3340bf6250b8f1c4ec596b742c133ef7663fce81"
+libc = "musl"
+os = "linux"
+
+    [[glog.download]]
+    sha256 = "c7ba0c2cac198b46f609d8c83c8f24a9a80a9d540d4a84fca74d752c648e0c30"
+    url = "https://github.com/JuliaBinaryWrappers/glog_jll.jl/releases/download/glog-v0.6.0+0/glog.v0.6.0.armv7l-linux-musleabihf-cxx03.tar.gz"
+[[glog]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "df6054a41a3cdbb49518ad024d84c2bb082021c7"
+libc = "musl"
+os = "linux"
+
+    [[glog.download]]
+    sha256 = "9c3945a5e3bbb5b5dd10ca2061eb281625b51baf292bd4aa471cbc8f4fd14b21"
+    url = "https://github.com/JuliaBinaryWrappers/glog_jll.jl/releases/download/glog-v0.6.0+0/glog.v0.6.0.armv7l-linux-musleabihf-cxx11.tar.gz"
+[[glog]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "2a65eb463b47b6b4bc23f1bf5ca18c1812690aff"
+libc = "glibc"
+os = "linux"
+
+    [[glog.download]]
+    sha256 = "eb4f443dce65e01fa8e961292f8154be58e9d27ba6942251fe67ccfc5f0f37c4"
+    url = "https://github.com/JuliaBinaryWrappers/glog_jll.jl/releases/download/glog-v0.6.0+0/glog.v0.6.0.i686-linux-gnu-cxx03.tar.gz"
+[[glog]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "7ad4e6990f08212f0a54b319f226bd31ec822d93"
+libc = "glibc"
+os = "linux"
+
+    [[glog.download]]
+    sha256 = "22086340beabf6448fcc9de05dcdef620b6a88367d651eb14a798742eddc4ee4"
+    url = "https://github.com/JuliaBinaryWrappers/glog_jll.jl/releases/download/glog-v0.6.0+0/glog.v0.6.0.i686-linux-gnu-cxx11.tar.gz"
+[[glog]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "532471e588b8d7ce374fbf06734e01b9648e2f25"
+libc = "musl"
+os = "linux"
+
+    [[glog.download]]
+    sha256 = "0b8c1adba8690f7b6ea02c50ad9968d5587d3ad04a8c7ec190c7b7bfaf3a564d"
+    url = "https://github.com/JuliaBinaryWrappers/glog_jll.jl/releases/download/glog-v0.6.0+0/glog.v0.6.0.i686-linux-musl-cxx03.tar.gz"
+[[glog]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "e0be93c4314e1b8e0ee09328043c2f60dc8276a8"
+libc = "musl"
+os = "linux"
+
+    [[glog.download]]
+    sha256 = "eab5437ec592e4075129c687f198b7f5b38a77bb10ddc251c17075671654342e"
+    url = "https://github.com/JuliaBinaryWrappers/glog_jll.jl/releases/download/glog-v0.6.0+0/glog.v0.6.0.i686-linux-musl-cxx11.tar.gz"
+[[glog]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "19ebca688048f84ec07fb08b1bc96ba4bab1a27b"
+os = "windows"
+
+    [[glog.download]]
+    sha256 = "40d07d2a4cbcc7531c72ef27bd1552df2d4c62f518064745ade23b510c3eca9e"
+    url = "https://github.com/JuliaBinaryWrappers/glog_jll.jl/releases/download/glog-v0.6.0+0/glog.v0.6.0.i686-w64-mingw32-cxx03.tar.gz"
+[[glog]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "5ac9fe0858ceaa2bf56c992bf1771995275266ac"
+os = "windows"
+
+    [[glog.download]]
+    sha256 = "bc32d47655b10fd23bd65b88ea2d8b4056fd9067a6d50cad1f3f916dbcdd0566"
+    url = "https://github.com/JuliaBinaryWrappers/glog_jll.jl/releases/download/glog-v0.6.0+0/glog.v0.6.0.i686-w64-mingw32-cxx11.tar.gz"
+[[glog]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "6c12785d56e93c3289e8320d168e1ac2a90532fd"
+libc = "glibc"
+os = "linux"
+
+    [[glog.download]]
+    sha256 = "a9bcf323364ac33263359ffe496f5fe60d75e0f78dc0986ca5c197c3cf563b00"
+    url = "https://github.com/JuliaBinaryWrappers/glog_jll.jl/releases/download/glog-v0.6.0+0/glog.v0.6.0.powerpc64le-linux-gnu-cxx03.tar.gz"
+[[glog]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "cb8ea64fa42e117af93c960ddf84fc0a501a1e53"
+libc = "glibc"
+os = "linux"
+
+    [[glog.download]]
+    sha256 = "d5ce61266704dcf66f28d783a94946796387c5d952129ea53386bb1feaed9002"
+    url = "https://github.com/JuliaBinaryWrappers/glog_jll.jl/releases/download/glog-v0.6.0+0/glog.v0.6.0.powerpc64le-linux-gnu-cxx11.tar.gz"
 [[glog]]
 arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "9aadfc2904583e03068761e143ab7596cddd50e2"
+git-tree-sha1 = "bd704406fde9baaf40bca396d9f31c7dd1cb76ce"
 os = "macos"
 
     [[glog.download]]
-    sha256 = "d8ca8c5f4cf119ef8b2e7bef398fa0cc272e3c9e2423cbfc2cf678caad7a0832"
-    url = "https://github.com/JuliaBinaryWrappers/glog_jll.jl/releases/download/glog-v0.4.0+0/glog.v0.4.0.x86_64-apple-darwin14-cxx03.tar.gz"
+    sha256 = "edf173dea761c87dc8e52b31e21cc7ae35212d888b95fa543ea475e5351b7545"
+    url = "https://github.com/JuliaBinaryWrappers/glog_jll.jl/releases/download/glog-v0.6.0+0/glog.v0.6.0.x86_64-apple-darwin.tar.gz"
 [[glog]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "8c360fd97db0bb73c56b17e535506746c7accb8b"
-os = "freebsd"
-
-    [[glog.download]]
-    sha256 = "f64064268c5b3daed6a7a6aa92ba898d284ae2ee7d8cc41c40a7106ecb64fd5f"
-    url = "https://github.com/JuliaBinaryWrappers/glog_jll.jl/releases/download/glog-v0.4.0+0/glog.v0.4.0.x86_64-unknown-freebsd11.1-cxx03.tar.gz"
-[[glog]]
-arch = "powerpc64le"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "798647e4a6344a6d9fddaec0e7ce50800d6af1c6"
+git-tree-sha1 = "801455c5d4fe50e614ac91c2705c7802eb46740a"
 libc = "glibc"
 os = "linux"
 
     [[glog.download]]
-    sha256 = "7c515ed88a4eb2dcf5398023749939255b0e7a859dea79d41fccf48de78518be"
-    url = "https://github.com/JuliaBinaryWrappers/glog_jll.jl/releases/download/glog-v0.4.0+0/glog.v0.4.0.powerpc64le-linux-gnu-cxx03.tar.gz"
+    sha256 = "5c9b1a62936645b1173c1715af3d0e8dea806daaee1e63c8e1911ed0e083912e"
+    url = "https://github.com/JuliaBinaryWrappers/glog_jll.jl/releases/download/glog-v0.6.0+0/glog.v0.6.0.x86_64-linux-gnu-cxx03.tar.gz"
 [[glog]]
-arch = "i686"
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "ee1f67e175c734ed5010857dd89b652aa369ee9b"
+libc = "glibc"
+os = "linux"
+
+    [[glog.download]]
+    sha256 = "d481f0f4b7a9e7fceff2a4d9b924fcad83afd2a34e368d9b7d60add35d0da539"
+    url = "https://github.com/JuliaBinaryWrappers/glog_jll.jl/releases/download/glog-v0.6.0+0/glog.v0.6.0.x86_64-linux-gnu-cxx11.tar.gz"
+[[glog]]
+arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "5ffd216d22c7b7ca4baee43168b40eddd44d5169"
-os = "windows"
-
-    [[glog.download]]
-    sha256 = "20ca48b7b75392375c358e881147a323f15cee0f9d2583a5a4659c2157c820d7"
-    url = "https://github.com/JuliaBinaryWrappers/glog_jll.jl/releases/download/glog-v0.4.0+0/glog.v0.4.0.i686-w64-mingw32-cxx03.tar.gz"
-[[glog]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "a0ae47e4d06b3f85372e3f53a8354c06208cd384"
-os = "windows"
-
-    [[glog.download]]
-    sha256 = "bf9ec37971d598a2c5aa215ede101b610efc560874421690f7b6c68d87ce846f"
-    url = "https://github.com/JuliaBinaryWrappers/glog_jll.jl/releases/download/glog-v0.4.0+0/glog.v0.4.0.i686-w64-mingw32-cxx11.tar.gz"
-[[glog]]
-arch = "armv7l"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "f7ccf03fa8f469499507b07f1211125defdece92"
+git-tree-sha1 = "e9a374953d965714d767255653a761bbbdbd858f"
 libc = "musl"
 os = "linux"
 
     [[glog.download]]
-    sha256 = "43040dca942e3b1fc04e9277511749da856e22521e137708d9bc51fb418eec91"
-    url = "https://github.com/JuliaBinaryWrappers/glog_jll.jl/releases/download/glog-v0.4.0+0/glog.v0.4.0.armv7l-linux-musleabihf-cxx11.tar.gz"
-[[glog]]
-arch = "armv7l"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "cb12f68ca1276b3c32e4d56feb0ccbaeab136176"
-libc = "glibc"
-os = "linux"
-
-    [[glog.download]]
-    sha256 = "74fc9252f84f62b5f8482fe08f6b8ff41b787f4683fa5aa8629e83fba3824fa3"
-    url = "https://github.com/JuliaBinaryWrappers/glog_jll.jl/releases/download/glog-v0.4.0+0/glog.v0.4.0.armv7l-linux-gnueabihf-cxx03.tar.gz"
-[[glog]]
-arch = "aarch64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "6c0976a95d86fe2fe51313e70ba4680c0b3e8871"
-libc = "glibc"
-os = "linux"
-
-    [[glog.download]]
-    sha256 = "8f7885c1146bf3565b2720dabc9033b2827189956cad670c36731648f8c63339"
-    url = "https://github.com/JuliaBinaryWrappers/glog_jll.jl/releases/download/glog-v0.4.0+0/glog.v0.4.0.aarch64-linux-gnu-cxx03.tar.gz"
-[[glog]]
-arch = "armv7l"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "bbafae4f30f79e9605e0ad783b0a63fabb1b732a"
-libc = "glibc"
-os = "linux"
-
-    [[glog.download]]
-    sha256 = "1777e0c6a5596244ff60f39d5781e3245c9f9cbf90136bd69646c9fc88373bb6"
-    url = "https://github.com/JuliaBinaryWrappers/glog_jll.jl/releases/download/glog-v0.4.0+0/glog.v0.4.0.armv7l-linux-gnueabihf-cxx11.tar.gz"
+    sha256 = "c4fcf7ea00b86c18c59ff700379c925c131a122fb843fd496dc7ecec60c82a5f"
+    url = "https://github.com/JuliaBinaryWrappers/glog_jll.jl/releases/download/glog-v0.6.0+0/glog.v0.6.0.x86_64-linux-musl-cxx03.tar.gz"
 [[glog]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "2a94b8355b881c4be95e8ac4f10ceab3b2880d70"
-os = "freebsd"
-
-    [[glog.download]]
-    sha256 = "0b79236e3215c7892aa1e65609a6bd0aabc5e6146a1cfea741341ff3dd438fa0"
-    url = "https://github.com/JuliaBinaryWrappers/glog_jll.jl/releases/download/glog-v0.4.0+0/glog.v0.4.0.x86_64-unknown-freebsd11.1-cxx11.tar.gz"
-[[glog]]
-arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "e65baff6f57af05fabb2f75b11b935e34f556d66"
+git-tree-sha1 = "b422e281d630f4396f7a45f8d50027c2eba07333"
 libc = "musl"
 os = "linux"
 
     [[glog.download]]
-    sha256 = "014ddf68693b21ceeed509fea92d1699207aa27be3fae0e2fda6399fbd223a1f"
-    url = "https://github.com/JuliaBinaryWrappers/glog_jll.jl/releases/download/glog-v0.4.0+0/glog.v0.4.0.i686-linux-musl-cxx03.tar.gz"
+    sha256 = "da9280111141c5b7eaf1d38422531824e7f90e8438e3db88bb592f2127dddcfc"
+    url = "https://github.com/JuliaBinaryWrappers/glog_jll.jl/releases/download/glog-v0.6.0+0/glog.v0.6.0.x86_64-linux-musl-cxx11.tar.gz"
+[[glog]]
+arch = "x86_64"
+git-tree-sha1 = "2c14f542e00f461ca25d1016293daec94dca04ff"
+os = "freebsd"
+
+    [[glog.download]]
+    sha256 = "4e06805a40c8f0a99a229518434c11d62cb679b4aa903fb502b1e148a7a5bd66"
+    url = "https://github.com/JuliaBinaryWrappers/glog_jll.jl/releases/download/glog-v0.6.0+0/glog.v0.6.0.x86_64-unknown-freebsd.tar.gz"
+[[glog]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "71d3a8ce37a3e829b1f0827d7aaa6ea219f793f6"
+os = "windows"
+
+    [[glog.download]]
+    sha256 = "650a819adf73ab35a71bfd34b6005de035ec496ef1897fb921acfee753c6ee4c"
+    url = "https://github.com/JuliaBinaryWrappers/glog_jll.jl/releases/download/glog-v0.6.0+0/glog.v0.6.0.x86_64-w64-mingw32-cxx03.tar.gz"
+[[glog]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "816220e9d6796c84431b4a9ad5763e1568e5f500"
+os = "windows"
+
+    [[glog.download]]
+    sha256 = "0c55555c4359a88f842fd9fd55d5e212f1c7150fea70e3f3504d375ef6f1f19c"
+    url = "https://github.com/JuliaBinaryWrappers/glog_jll.jl/releases/download/glog-v0.6.0+0/glog.v0.6.0.x86_64-w64-mingw32-cxx11.tar.gz"
